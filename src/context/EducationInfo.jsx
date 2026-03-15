@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react'
 export const EducationContext = createContext()
 
 export const EducationInfo = ({children}) => {
-  const [educationContext,setEducationContext] = useState(
+  const [educationContext,setEducationContext] = useState([
     {
         school : "",
         degree : "",
@@ -11,17 +11,36 @@ export const EducationInfo = ({children}) => {
         startDate : "",
         endDate : ""
     }
-)
+  ])
 
-function handleChange(e){
-  const {name,value} = e.target 
+  function handleEducationChange(index, e){
+    const {name,value} = e.target 
+    setEducationContext(prev => {
+      const newCtx = [...prev];
+      newCtx[index] = {...newCtx[index], [name]: value};
+      return newCtx;
+    });
+  }
 
-  setEducationContext(prev=>(
-    {...prev , [name] : value}
-  ))
-}
+  function addEducation() {
+    setEducationContext(prev => [
+      ...prev,
+      {
+        school : "",
+        degree : "",
+        percentage : "",
+        startDate : "",
+        endDate : ""
+      }
+    ])
+  }
+
+  function removeEducation(index) {
+     setEducationContext(prev => prev.filter((_, i) => i !== index));
+  }
+
   return (
-    <EducationContext.Provider value={{educationContext,handleChange}}>
+    <EducationContext.Provider value={{educationContext, handleEducationChange, addEducation, removeEducation}}>
       {children}
     </EducationContext.Provider>
   )
