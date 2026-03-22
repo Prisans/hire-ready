@@ -1,4 +1,4 @@
-# 🚀 HireReady: Professional Resume Builder
+#  HireReady: Professional Resume Builder
 
 ![HireReady Preview](public/assets/images/hire-ready-preview.jpg)
 
@@ -99,4 +99,4 @@ This project is licensed under the MIT License.
 
 ---
 
-*Built with ❤️ for Acciojobs*
+*Built with ❤️ for Acciojob*
