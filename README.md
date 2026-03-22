@@ -4,6 +4,14 @@
 
 ---
 
+## 📹 Video Demonstration
+
+[![Watch the demo](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](YOUR_VIDEO_URL_HERE)
+
+*(Add your video demonstration link here to show HireReady in action!)*
+
+---
+
 ## ✨ Key Features
 
 - **Live Real-time Preview**: See your resume take shape as you type. No more guessing how your data fits on the page.
