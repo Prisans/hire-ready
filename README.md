@@ -1,5 +1,7 @@
 # 🚀 HireReady: Professional Resume Builder
 
+![HireReady Preview](public/assets/images/hire-ready-preview.jpg)
+
 **HireReady** is a modern, fast, and intuitive resume builder designed to help job seekers create professional, recruiter-ready resumes in minutes. With real-time preview and one-click PDF export, HireReady removes the friction from document formatting so you can focus on your content.
 
 ---
