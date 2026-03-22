@@ -5,7 +5,7 @@ export const ProjectContext = createContext()
 export function ProjectInfo({children}){
     const [projectContext,setProjectContext] = useState([{
         title:"",
-        technologies:[],
+        technologies:"",
         githublink:"",
         deployedlink:"",
         desc:""
@@ -23,7 +23,7 @@ export function ProjectInfo({children}){
     function addProject() {
         setProjectContext(prev => [...prev, {
             title:"",
-            technologies:[],
+            technologies:"",
             githublink:"",
             deployedlink:"",
             desc:""
