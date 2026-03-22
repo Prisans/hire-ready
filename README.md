@@ -8,9 +8,9 @@
 
 ## 📹 Video Demonstration
 
-[![Watch the demo](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](YOUR_VIDEO_URL_HERE)
+<video src="public/assets/video/HireReady.mp4" controls width="100%"></video>
 
-*(Add your video demonstration link here to show HireReady in action!)*
+*(Watch HireReady in action!)*
 
 ---
 
