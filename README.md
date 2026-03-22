@@ -8,7 +8,7 @@
 
 ## 📹 Video Demonstration
 
-<video src="public/assets/video/HireReady.mp4" controls width="100%"></video>
+<video src="https://github.com/Prisans/hire-ready/raw/main/public/assets/video/HireReady.mp4" controls width="100%"></video>
 
 *(Watch HireReady in action!)*
 
